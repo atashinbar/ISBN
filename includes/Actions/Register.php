@@ -134,7 +134,7 @@ class Register
     }
 
     
-    function MetaBox_Callback( $post ) {
+    public function MetaBox_Callback( $post ) {
 
         // Add a nonce field so we can check for it later.
             wp_nonce_field( 'IsbnMeta', 'IsbnMetaNonce' );
@@ -145,7 +145,7 @@ class Register
             echo '<input type="text" name="book_isbn" value="'.$value.'" />';
     }
 
-    function save_metabox_callback( $post_id ) {
+    public function save_metabox_callback( $post_id ) {
 
         $nonce_name   = isset( $_POST['IsbnMetaNonce'] ) ? $_POST['IsbnMetaNonce'] : '';
         $nonce_action = 'IsbnMeta';
@@ -177,6 +177,18 @@ class Register
         if ( isset( $_REQUEST['book_isbn'] ) ) {
             update_post_meta( $post_id, '_book_isbn', sanitize_text_field( $_POST['book_isbn'] ) );
         }
+
+
+        $WpDB       = Core::GetWPDB();
+        $Table      = $WpDB->prefix . 'books_info';
+
+        $WpDB->insert( 
+            $Table, 
+            array( 
+                'post_id' => $post_id, 
+                'isbn' => sanitize_text_field( $_POST['book_isbn'] ), 
+            ) 
+        );
     
         // Check if $_POST field(s) are available
     
@@ -195,9 +207,6 @@ class Register
         add_action('init', array($this, 'RegisterPublisherTaxonomy'));
         add_action( 'add_meta_boxes', array($this, 'RegisterMetaBox') );
         add_action( 'save_post', array($this, 'save_metabox_callback') );
-        // Admin set post columns
-        // add_filter( 'manage_edit-'.$this->type.'_columns',        array($this, 'set_columns'), 10, 1) ;
-        // // Admin edit post columns
-        // add_action( 'manage_'.$this->type.'_posts_custom_column', array($this, 'edit_columns'), 10, 2 );
+
     }
 }
