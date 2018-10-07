@@ -7,7 +7,7 @@ use Helper\Core;
 class Database
 {
     /**
-     * Add Emoji To Contents
+     * Add Database
      */
     private function AddDatabase()
     {
@@ -18,7 +18,7 @@ class Database
         $CreateTable = "CREATE TABLE $Table (
         id int(10) NOT NULL AUTO_INCREMENT,
         post_id int(10) NOT NULL,
-        isbn int(100),
+        isbn bigint(255),
         UNIQUE KEY  ID (id),
         UNIQUE KEY  post_id (post_id)
         ) $Charset;";
@@ -32,7 +32,7 @@ class Database
     }
 
     /**
-     * Add Emoji To Contents
+     * Construct
      */
     public function __construct()
     {
