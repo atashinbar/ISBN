@@ -9,4 +9,40 @@
     Text Domain: isbn
 
 
-/*------------------------------------------------------------------
+------------------------------------------------------------------*/
+.main-wrap table tr:nth-child(even) {background: #e8e8e8; }
+.main-wrap table tr:nth-child(odd) {background: #fff;}
+
+.main-wrap table tr:first-child {
+    background: #000;
+    color: #fff;
+}
+.main-wrap table tr {
+    background: #e8e8e8;
+}
+.main-wrap table tr td {
+    padding: 5px;
+}
+.main-wrap .wp-pagenavi ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-wrap .wp-pagenavi ul li a {
+    background: #437df9;
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
+    -moz-transition:all 0.3s ease;
+    -webkit-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+
+.main-wrap .wp-pagenavi ul li a:hover {
+    background: #222;
+}

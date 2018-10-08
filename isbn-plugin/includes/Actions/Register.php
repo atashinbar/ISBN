@@ -78,10 +78,10 @@ class Register
             'show_ui'               => true,
             'show_admin_column'     => true,
             'query_var'             => true,
-            'rewrite'               => array( 'slug' => 'author' ),
+            'rewrite'               => array( 'slug' => 'authors' ),
         );
 
-        register_taxonomy( 'author', $this->Type , $Args );
+        register_taxonomy( 'authors', $this->Type , $Args );
     }
 
     /**

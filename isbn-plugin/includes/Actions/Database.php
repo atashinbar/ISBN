@@ -27,8 +27,8 @@ class Database
         {
             require_once ABSPATH . 'wp-admin/install-helper.php';
         }
-
         maybe_create_table( $Table, $CreateTable );
+
     }
 
     /**
