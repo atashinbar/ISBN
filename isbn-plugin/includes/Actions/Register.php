@@ -17,8 +17,8 @@ class Register
     public function RegisterPostType()
     {
         $Labels = array(
-            'name'                  => _x( 'Books', 'post type general name' ),
-            'singular_name'         => _x( 'Book', 'post type singular name' ),
+            'name'                  => _x( 'Books', 'post type general name' ,'isbn' ),
+            'singular_name'         => _x( 'Book', 'post type singular name' , 'isbn' ),
             'add_new'               => esc_html__('Add New' , 'isbn'),
             'all_items'             => esc_html__('All Books' , 'isbn'),
             'add_new_item'          => esc_html__('Add New Book' , 'isbn'),
@@ -153,7 +153,8 @@ class Register
         $Nonce   = isset( $_POST['IsbnMetaNonce'] ) ? $_POST['IsbnMetaNonce'] : '';
         $NonceAction = 'IsbnMeta';
     
-        if ( ! isset( $Nonce ) ) {
+        if ( ! isset( $Nonce ) )
+        {
             return;
         }
     

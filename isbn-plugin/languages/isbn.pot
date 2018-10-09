@@ -1,0 +1,231 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Book ISBN\n"
+"POT-Creation-Date: 2018-10-09 10:18+0330\n"
+"PO-Revision-Date: 2018-10-09 10:18+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: isbn.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Actions/Register.php:20
+msgctxt "post type general name"
+msgid "Books"
+msgstr ""
+
+#: includes/Actions/Register.php:21
+msgctxt "post type singular name"
+msgid "Book"
+msgstr ""
+
+#: includes/Actions/Register.php:22
+msgid "Add New"
+msgstr ""
+
+#: includes/Actions/Register.php:23
+msgid "All Books"
+msgstr ""
+
+#: includes/Actions/Register.php:24
+msgid "Add New Book"
+msgstr ""
+
+#: includes/Actions/Register.php:25
+msgid "New Book"
+msgstr ""
+
+#: includes/Actions/Register.php:26
+msgid "Edit Book"
+msgstr ""
+
+#: includes/Actions/Register.php:27
+msgid "View Books"
+msgstr ""
+
+#: includes/Actions/Register.php:28
+msgid "Search Books"
+msgstr ""
+
+#: includes/Actions/Register.php:29
+msgid "No Books found"
+msgstr ""
+
+#: includes/Actions/Register.php:30
+msgid "No Books found in Trash"
+msgstr ""
+
+#: includes/Actions/Register.php:31
+msgid "Books"
+msgstr ""
+
+#: includes/Actions/Register.php:57
+msgctxt "taxonomy general name"
+msgid "Authors"
+msgstr ""
+
+#: includes/Actions/Register.php:58
+msgctxt "taxonomy singular name"
+msgid "Author"
+msgstr ""
+
+#: includes/Actions/Register.php:59
+msgid "Search Authors"
+msgstr ""
+
+#: includes/Actions/Register.php:60
+msgid "Popular Authors"
+msgstr ""
+
+#: includes/Actions/Register.php:61
+msgid "All Authors"
+msgstr ""
+
+#: includes/Actions/Register.php:64
+msgid "Edit Author"
+msgstr ""
+
+#: includes/Actions/Register.php:65
+msgid "Update Author"
+msgstr ""
+
+#: includes/Actions/Register.php:66
+msgid "Add New Author"
+msgstr ""
+
+#: includes/Actions/Register.php:67
+msgid "New Author Name"
+msgstr ""
+
+#: includes/Actions/Register.php:68
+msgid "Separate Authors with commas"
+msgstr ""
+
+#: includes/Actions/Register.php:69
+msgid "Add or remove Authors"
+msgstr ""
+
+#: includes/Actions/Register.php:70
+msgid "Choose from the most used Authors"
+msgstr ""
+
+#: includes/Actions/Register.php:71
+msgid "No Authors found."
+msgstr ""
+
+#: includes/Actions/Register.php:72
+msgid "Authors"
+msgstr ""
+
+#: includes/Actions/Register.php:93
+msgctxt "taxonomy general name"
+msgid "Publishers"
+msgstr ""
+
+#: includes/Actions/Register.php:94
+msgctxt "taxonomy singular name"
+msgid "Publisher"
+msgstr ""
+
+#: includes/Actions/Register.php:95
+msgid "Search Publishers"
+msgstr ""
+
+#: includes/Actions/Register.php:96
+msgid "Popular Publishers"
+msgstr ""
+
+#: includes/Actions/Register.php:97
+msgid "All Publishers"
+msgstr ""
+
+#: includes/Actions/Register.php:100
+msgid "Edit Publisher"
+msgstr ""
+
+#: includes/Actions/Register.php:101
+msgid "Update Publisher"
+msgstr ""
+
+#: includes/Actions/Register.php:102
+msgid "Add New Publisher"
+msgstr ""
+
+#: includes/Actions/Register.php:103
+msgid "New Publisher Name"
+msgstr ""
+
+#: includes/Actions/Register.php:104
+msgid "Separate Publishers with commas"
+msgstr ""
+
+#: includes/Actions/Register.php:105
+msgid "Add or remove Publishers"
+msgstr ""
+
+#: includes/Actions/Register.php:106
+msgid "Choose from the most used Publishers"
+msgstr ""
+
+#: includes/Actions/Register.php:107
+msgid "No Publishers found."
+msgstr ""
+
+#: includes/Actions/Register.php:108
+msgid "Publishers"
+msgstr ""
+
+#: includes/Actions/Register.php:131
+msgid "ISBN Number"
+msgstr ""
+
+#: includes/Actions/Register.php:229
+msgctxt "ISBN page title"
+msgid "ISBNs"
+msgstr ""
+
+#: includes/Actions/Register.php:230
+msgctxt "ISBN menu title"
+msgid "ISBNs"
+msgstr ""
+
+#: includes/Helper/IsbnList.php:36
+msgctxt "Column label"
+msgid "ISBN ID"
+msgstr ""
+
+#: includes/Helper/IsbnList.php:37
+msgctxt "Column label"
+msgid "Post ID"
+msgstr ""
+
+#: includes/Helper/IsbnList.php:38
+msgctxt "Column label"
+msgid "ISBN Number"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Description of the plugin/theme
+msgid "Book ISBN"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "#"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ali Atashinbar"
+msgstr ""

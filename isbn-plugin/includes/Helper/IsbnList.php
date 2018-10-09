@@ -33,9 +33,9 @@ class IsbnList extends \WP_List_Table
     public function get_columns()
     {
 		$columns = array(
-			'id'        => _x( 'ISBN ID', 'Column label', 'wp-list-table-example' ),
-			'post_id'   => _x( 'Post ID', 'Column label', 'wp-list-table-example' ),
-			'isbn'      => _x( 'ISBN Number', 'Column label', 'wp-list-table-example' ),
+			'id'        => _x( 'ISBN ID', 'Column label', 'isbn' ),
+			'post_id'   => _x( 'Post ID', 'Column label', 'isbn' ),
+			'isbn'      => _x( 'ISBN Number', 'Column label', 'isbn' ),
 		);
 		return $columns;
 	}
