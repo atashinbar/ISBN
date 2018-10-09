@@ -8,7 +8,7 @@ get_header(); ?>
 			/* Start the Loop */
             while ( have_posts() ) : the_post();
             
-            echo '<a href="'.get_the_permalink().'">' . get_the_title() . '</a>';
+            echo get_the_title();
             echo '<br>';
             echo get_the_content();
 
