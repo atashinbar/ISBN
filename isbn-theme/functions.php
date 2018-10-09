@@ -1,4 +1,8 @@
 <?php
+// Translate
+load_theme_textdomain('isbn', get_template_directory().'/languages');
+
+
 // Enqueue style.css
 function theme_name_scripts()
 {
